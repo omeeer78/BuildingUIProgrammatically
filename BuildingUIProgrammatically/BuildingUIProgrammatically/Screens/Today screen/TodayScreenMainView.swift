@@ -11,7 +11,7 @@ import UIKit
 class TodayScreenMainView: UIView {
     
     //MARK: - UI components
-    private let titleView = TitleView()
+    private lazy var titleView = TitleView()
     private lazy var tableView = MainTableView(type: .lists, lists: lists, tasks: tasks)
     private lazy var popupView = PopupView()
     private lazy var plusButton = PlusButton(frame: CGRect(origin: .zero, size: CGSize(width: 64, height: 64)))

@@ -12,7 +12,7 @@ class PopupView: UIView {
     
     //MARK: - UI Components
     private let taskItem = PopupItem(item: PopupItemModel.taskModelMockup)
-    private let separatorLine = UIView()s
+    private let separatorLine = UIView()
     private let listItem = PopupItem(item: PopupItemModel.listModelMockup)
     
     private lazy var mainStack = UIStackView(views: [taskItem, separatorLine, listItem], axis: .vertical, distribution: .fillProportionally)
